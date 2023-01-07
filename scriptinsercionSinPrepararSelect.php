@@ -13,7 +13,7 @@ echo "</pre>";
 $lafecha=date ("Y-m-d", mktime (0, 0, 0, $_POST['dia'],$_POST['mes'],$_POST['anno']));
 $arrayClaves=$_POST["inserta"];
 $contadorAltas=0;
-$conexion=new mysqli("localhost","root","","examen2");
+$conexion=new mysqli("containers-us-west-52.railway.app","root","VNPJaoKEoIM9vrvrVZFh","railway","6760");
 $sentencia=$conexion->stmt_init();
 $cadInsert="INSERT INTO faltas VALUES(?,'$lafecha')";
 $sentencia->prepare($cadInsert);
