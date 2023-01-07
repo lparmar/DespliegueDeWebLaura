@@ -4,7 +4,7 @@ include('funcionesBD.php');
 cabecera('Seleccione curso');
 echo "<div id=\"contenido\">\n";
 
-$conexion=new mysqli("localhost","root","","examen2");
+$conexion=new mysqli("containers-us-west-52.railway.app","root","VNPJaoKEoIM9vrvrVZFh","railway","6760");
 $conexion->set_charset("utf8");
 $arrayCursos=obtenerArrayOpciones("alumnos","curso","curso");
 
