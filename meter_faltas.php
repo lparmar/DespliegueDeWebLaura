@@ -17,7 +17,7 @@ echo "<input type=\"text\" name=dia size='2' value=$dd>";
 echo "<input type=\"text\" name=mes size='2' value=$mm>";
 echo "<input type=\"text\" name=anno size='4' value=$yy><br>";
 
-$conexion=new mysqli("localhost","root","","examen2");
+$conexion=new mysqli("containers-us-west-52.railway.app","root","VNPJaoKEoIM9vrvrVZFh","railway","6760");
 $conexion->set_charset("utf8");
 $sql="SELECT CLAVE,NOMBRE FROM alumnos WHERE  CURSO='".$curso."' ORDER BY nombre";
 $resultado=$conexion->query($sql);
