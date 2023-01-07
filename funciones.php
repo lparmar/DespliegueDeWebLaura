@@ -8,7 +8,7 @@ function cabecera($texto)
 <head>
   <meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\" />
   <title>Menú - $texto</title>
-  <link href=\"css/miestilo.css\" rel=\"stylesheet\" type=\"text/css\" />
+  <link href=\"miestilo.css\" rel=\"stylesheet\" type=\"text/css\" />
 </head>
 
 <body>
